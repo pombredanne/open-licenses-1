@@ -1,3 +1,5 @@
-# Ansible automation tool
-This is a presentation for [Ansible](http://ansible.com) using **Reveal.js**. Presented at the Thessaloniki Python meetup www.meetup.com/PyThess/events/222348281.
+## Open data and open source licenses
 
+A presentation for [Drupal meetup Thessaloniki No 28](http://mydrupal.gr).
+
+Online version at [theodorosploumis.github.io/open-licenses](http://theodorosploumis.github.io/open-licenses).
