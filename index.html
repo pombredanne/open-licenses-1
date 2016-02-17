@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Open data and Open source licenses for developers</title>
+
+  <meta name="description"
+  content="A presentation about linked data, open data, SPARQL and open web">
+  <meta name="author" content="@theoploumis">
+
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+  <!-- Code syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+  document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+      <section>
+        <h1>Open as in free beer!</h1>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Beer_mug.svg">
+
+        <h4>Open data and Open source licenses for developers.</h4>
+
+        <p>
+          <small>Presentation by <a href="http://theodorosploumis.com">TheodorosPloumis</a> / <a href="http://twitter.com/theoploumis">@theoploumis</a></small>
+        </p>
+        <p>
+          <small><a href="http://mydrupal.gr/node/2857">Meetup No 28</a> - 18 Feb 2016 - <a href="http://www.techministry.gr/">TechMinistry</a>.</small>
+        </p>
+        <p>
+          <small>Under <a href="http://creativecommons.org/licenses/by/4.0/">Attribution 4.0 International</a> license.</small>
+        </p>
+      </section>
+
+      <section>
+        <section>
+          <h2>What are Open Data</h2>
+          <ul>
+            <li>Available to everyone</li>
+            <li>Free to use</li>
+            <li>Free to republish</li>
+            <li>Free to store</li>
+            <li>No restrictions from copyright etc</li>
+            <li>Free data are not necessary Open data</li>
+            <li>Open data does not mean unlimited usage (resources)</li>
+          </ul>
+
+        </section>
+        <section>
+          <h2>The 5 star open data</h2>
+          <img src="http://5stardata.info/images/5-star-steps.png" title="The 5 star open data">
+        </section>
+        <aside class="notes">
+★ make your stuff available on the Web (whatever format) under an open license
+★★ make it available as structured data (e.g., Excel instead of image scan of a table)
+★★★ make it available in a non-proprietary open format (e.g., CSV as well as of Excel)
+★★★★ use URIs to denote things, so that people can point at your stuff
+★★★★★ link your data to other data to provide context
+        </aside>
+
+        <section>
+          <h2>License is the king</h2>
+          <ul>
+            <li>It is the license the defines the open data.</li>
+            <li>A Dataset (database) may have different license from its Content.</li>
+            <li>Avoid Creative Commons license for Content.</li>
+            <li><a href="http://okfn.org/" title="Open Knowledge Foundation">OKFN</a> created the <a href="http://opendatacommons.org/">opendatacommons.org</a>.</li>
+            <li><a href="http://theodi.org/" title="Open Data Institute">ODI</a> provides a <a href="https://certificates.theodi.org/en">certification</a> for Open Data.</li>
+            <li><a href="http://ckan.org/">CKAN</a> and <a href="http://www.nucivic.com/dkan/">DKAN</a> are the leader software for open data.</li>
+            <li><a href="https://www.w3.org/TR/vocab-dcat/">DCAT</a> is the RDF vocabulary to describe a Dataset.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2><a href="http://opendatacommons.org/licenses/odbl/">Open Data Commons Open Database License (ODbL)</a></h2>
+          <ul>
+            <li>Free to: Share/Create/Adapt</li>
+            <li>As long as you: Attribute/Share Alike/Keep open</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2><a href="http://opendatacommons.org/licenses/by/">Open Data Commons Attribution License</a></h2>
+          <ul>
+            <li>Free to: Share/Create/Adapt</li>
+            <li>As long as you: Attribute</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2><a href="http://opendatacommons.org/licenses/pddl">Open Data Commons Public Domain Dedication and License (PDDL)</a></h2>
+          <ul>
+            <li>Free to: Share/Create/Adapt</li>
+            <li>As long as you: - </li>
+          </ul>
+        </section>
+
+      </section>
+
+      <section>
+      <section>
+        <h2>Open Source licenses</h2>
+
+        <ul>
+          <li>License refers to the code</li>
+          <li>There is still a copyright holder</li>
+          <li>You can make money by any means except from "Royalities"</li>
+          <li>License is used to protect the owner from liability</li>
+          <li>Prefer to assign the copyright to a company not a person</li>
+          <li>Don't create your own license, prefer the popular and approved</li>
+          <li>License says how to implement it</li>
+          <li>Avoid the "No license", "Public Domain", "CC0"</li>
+        </ul>
+
+      </section>
+
+      <section>
+        <h2>Open Source licenses</h2>
+
+        <ul>
+          <li><a href="https://www.stallman.org/">Richard Stallman</a> pushed the first official license in 1985</li>
+          <li>Does not apply to the trademarls or other marks</li>
+          <li>We can run programs with different licenses side by side</li>
+          <li>Brands and orgs create their (forked) license</li>
+          <li>How to relicense an open source project</li>
+          <li>Multilicensing causes trouble</li>
+          <li>Sometimes there are <span title="Contributor License Agreement">CLA</span> and <span title="Copyright Assignment Agreement">CAA</span></li>
+          <li>Using open source language does not mean open source project</li>
+        </ul>
+
+      </section>
+
+      <section>
+        <h2>Copyleft vs Non-copyleft</h2>
+        <ul>
+          <li>Use non-Copyleft for libraries/functions that will be used in other software</li>
+          <li>Copyleft: Forces to use the same license</li>
+          <li>Non-copyleft: Not strict and focus only on attribution</li>
+          <li>GPLv2 is the most popular copyleft license</li>
+          <li>MIT is the most popular non-copyleft license</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>GPLv2 vs GPLv3</h2>
+        <ul>
+          <li><a href="https://opensource.org/" title="Open Source Initiative">OSI</a> (v2) vs <a href="http://www.fsf.org/" title="Free Software Foundation">FSF</a> +
+            <a href="http://gnu.org">GNU</a> (v3)</li>
+          <li>No compatibility</li>
+          <li>Projects under v2 (1991) can move to v3 (2007)</li>
+          <li>v2 focus on the "give back to community" concept</li>
+          <li>v3 focus on internationalization</li>
+          <li>v3 focus on <a href="https://www.wikiwand.com/en/Digital_rights_management" title="Digital rights management">DRM</a> free products</li>
+          <li>v3 discourages patents and exclusive usage</li>
+          <li>v3 blocks "<a href="https://www.wikiwand.com/en/Tivoization">tivoization</a>"</li>
+          <li>v3 is more strict</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Choosing an open source license</h2>
+        <ul>
+          <li><a href="http://choosealicense.com/">Choosealicense.com</a></li>
+          <li><a href="http://oss-watch.ac.uk/apps/licdiff/">Licence differentiator</a></li>
+          <li><a href="http://www.wikiwand.com/en/Comparison_of_free_and_open-source_software_licenses#/Approvals">Comparison of free and open-source software licenses</a></li>
+          <li><a href="http://wiki.civiccommons.org/Choosing_a_License/">Civic commons - Choosing a License</a></li>
+        </ul>
+      </section>
+
+    </section><!-- change-page -->
+    
+    <section>
+      <h1>Q&A</h1>
+
+      <p><a href="http://theodorosploumis.com">TheodorosPloumis.com</a></p>
+      <p><a href="http://twitter.com/theoploumis">@theoploumis</a></p>
+    </section>
+
+    </div>
+
+  </div>
+
+  <script src="lib/js/head.min.js"></script>
+  <script src="js/reveal.js"></script>
+
+  <script>
+
+  // Full list of configuration options available at:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+
+    transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+    // Optional reveal.js plugins
+    dependencies: [
+      {
+        src: 'lib/js/classList.js', condition: function () {
+          return !document.body.classList;
+        }
+      },
+      {
+        src: 'plugin/markdown/marked.js', condition: function () {
+          return !!document.querySelector('[data-markdown]');
+        }
+      },
+      {
+        src: 'plugin/markdown/markdown.js', condition: function () {
+          return !!document.querySelector('[data-markdown]');
+        }
+      },
+      {
+        src: 'plugin/highlight/highlight.js', async: true, condition: function () {
+          return !!document.querySelector('pre code');
+        }, callback: function () {
+          hljs.initHighlightingOnLoad();
+        }
+      },
+      {src: 'plugin/zoom-js/zoom.js', async: true},
+      {src: 'plugin/notes/notes.js', async: true}
+    ]
+  });
+
+  </script>
+
+</body>
+</html>
